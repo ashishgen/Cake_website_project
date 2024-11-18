@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+  <script src="signin.js"></script>  
+
+<div class="container">
+    <div class="form-box"> 
+        <h1 id="title">Login</h1>
+        <form action="./profile.html" method="post">
+            <div class="input-group">
+                <div class="input-field" id="nameField">
+                    <input type="email" placeholder="Email/ussername" class="email" id="email" name="email">
+                </div>
+                <div class="input-field" id="nameField">
+                    <input type="password" placeholder="Password" class="passward" id ="passward" name="passward">
+                </div>
+                <a href="http://127.0.0.1:5500/profile.html" ; class="shift-link" role="button">Forget password?</a>
+                <button  onclick="savedata()" type="button" id="signinbtn">Login</button>
+             
+                
+                <p class="para">Don't have account</p><a class="btn"  href="http://127.0.0.1:5500/index_signup_page.html";role="button";>Signup</a>
+                <div class="line">
+                    <span class="line1"><hr></span><span class="pa"><p>Or</p></span><span class="line2"><hr></span>
+                </div>
+                <a href="#" class="fbbtn"> Login with Facebook</a>
+                <a href="#" class="googlebtn">Login with Google+</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
